@@ -1,14 +1,29 @@
 {
-  "name": "@harshit.kishor2/responsive",
-  "version": "1.0.3",
+  "name": "rn-responsive",
+  "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
   "peerDependencies": {
-    "react-native": "0.73.0"
+    "react-native": "*"
   },
   "author": "Harshit Kishor",
   "license": "ISC",
-  "description": ""
+  "description": "A responsive utility class for React Native that simplifies the process of creating responsive designs by providing functions to scale dimensions and font sizes based on the device screen dimensions. This utility supports both Android and iOS platforms.",
+  "keywords": [
+    "responsive",
+    "react-native",
+    "react",
+    "mobile",
+    "design",
+    "ui",
+    "cross-platform",
+    "scalable",
+    "layout",
+    "rpFont",
+    "rpWidth",
+    "rpHeight",
+    "responsive-font"
+  ]
 }
