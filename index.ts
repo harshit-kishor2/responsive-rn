@@ -1,6 +1,6 @@
 import { rpFont, rpHeight, rpInitialize, rpInstance, rpNormalize, rpWidth } from "./src/responsiveClass";
 
-export default {
+export {
     rpFont,
     rpWidth,
     rpHeight,

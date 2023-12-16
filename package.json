@@ -1,6 +1,6 @@
 {
   "name": "@harshit.kishor2/rn-responsive",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\""

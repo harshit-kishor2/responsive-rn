@@ -9,10 +9,10 @@ yarn add @harshit.kishor2/rn-responsive
 
 ```javascript
 // Import necessary functions and initialize the package
-import { initialize, rpFont, rpWidth, rpHeight, normalizeSize } from '@harshit.kishor2/rn-responsive';
+import { rpInitialize, rpFont, rpWidth, rpHeight, rpNormalize } from '@harshit.kishor2/rn-responsive';
 
 // Initialize with initial dimensions in your Entry file App.tsx
-initialize({ height: initialHeight, width: initialWidth });
+rpInitialize({ height: initialHeight, width: initialWidth });
 
 
 // Use responsive functions in your any components
@@ -21,8 +21,8 @@ const heightValue = rpHeight(50); // Get a responsive height value
 const fontValue = rpFont(16); // Get a responsive font size
 
 // Use the normalize function directly if needed
-const normalizedWidth = normalizeSize(150, 'width'); // Normalize a size based on width
-const normalizedHeight = normalizeSize(40, 'height'); // Normalize a size based on height
+const normalizedWidth = rpNormalize(150, 'width'); // Normalize a size based on width
+const normalizedHeight = rpNormalize(40, 'height'); // Normalize a size based on height
 
 ```
 
@@ -34,14 +34,14 @@ const normalizedHeight = normalizeSize(40, 'height'); // Normalize a size based 
 
 **Responsive Font Size:** rpFont(size: number): number - Get a responsive font size based on the initial dimensions.
 
-**Normalize Size:** normalizeSize(size: number, based?: 'width' | 'height'): number - Normalize a size based on the specified dimension (default is width).
+**Normalize Size:** rpNormalize(size: number, based?: 'width' | 'height'): number - Normalize a size based on the specified dimension (default is width).
 
 
 ### Example
 
 ```javascript
 // Initialize with device dimensions
-initialize({ height: 667, width: 375 });
+rpInitialize({ height: 667, width: 375 });
 
 // Use responsive functions
 const widthValue = rpWidth(100); // Result will depend on the screen dimensions
@@ -53,7 +53,7 @@ const fontValue = rpFont(16); // Result will depend on the screen dimensions
 
 ### API
 
-1. **initialize(params: { height: number, width: number }): void**
+1. **rpInitialize(params: { height: number, width: number }): void**
 Initialize the responsive package with the initial dimensions.
 
 2. **rpWidth(size: number): number**
@@ -65,8 +65,11 @@ Get a responsive height value based on the initial dimensions.
 4. **rpFont(size: number): number**
 Get a responsive font size based on the initial dimensions.
 
-5. **normalizeSize(size: number, based?: 'width' | 'height'): number**
+5. **rpNormalize(size: number, based?: 'width' | 'height'): number**
 Normalize a size based on the specified dimension (default is width).
 
 
 ###### Author- Harshit Kishor
+Medium Blog - [Medium][1]
+
+[1]: https://medium.com/@harshitkishor2/creating-responsive-designs-in-react-native-with-harshit-kishor2-rn-responsive-63d71af92b91 "Medium Blog"
