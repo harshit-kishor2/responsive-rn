@@ -1,0 +1,14 @@
+{
+  "name": "@harshit.kishor2/responsive",
+  "version": "1.0.3",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "peerDependencies": {
+    "react-native": "0.73.0"
+  },
+  "author": "Harshit Kishor",
+  "license": "ISC",
+  "description": ""
+}
