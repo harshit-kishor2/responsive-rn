@@ -1,6 +1,6 @@
 {
-  "name": "@harshit.kishor2/rn-responsive",
-  "version": "1.0.2",
+  "name": "@harshitkishor/rn-responsive",
+  "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\""
@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/harshit-kishor2/responsive-rn.git"
+    "url": "git+https://github.com/harshit-kishor2/responsive-rn.git"
   },
   "bugs": {
     "url": "https://github.com/harshit-kishor2/responsive-rn/issues"
