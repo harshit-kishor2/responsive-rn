@@ -4,12 +4,12 @@ A responsive utility class for React Native that simplifies the process of creat
 ## Installation
 
 ```bash
-npm install your-responsive-package
+yarn add @harshit.kishor2/rn-responsive
 ```
 
 ```javascript
 // Import necessary functions and initialize the package
-import { initialize, rpFont, rpWidth, rpHeight, normalizeSize } from 'your-responsive-package';
+import { initialize, rpFont, rpWidth, rpHeight, normalizeSize } from '@harshit.kishor2/rn-responsive';
 
 // Initialize with initial dimensions in your Entry file App.tsx
 initialize({ height: initialHeight, width: initialWidth });

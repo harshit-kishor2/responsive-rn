@@ -1,5 +1,5 @@
 {
-  "name": "rn-responsive",
+  "name": "@harshit.kishor2/rn-responsive",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
@@ -25,5 +25,13 @@
     "rpWidth",
     "rpHeight",
     "responsive-font"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harshit-kishor2/responsive-rn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harshit-kishor2/responsive-rn/issues"
+  },
+  "homepage": "https://github.com/harshit-kishor2/responsive-rn#readme"
 }
